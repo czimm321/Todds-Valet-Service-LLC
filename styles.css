@@ -22,20 +22,24 @@ body {
     text-align: center;
     color: white;
     background-position: center;
+    background-color: #FF8C00; /* Adding a vibrant orange background if the image fails to load */
 }
 
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 40px;
+    font-weight: 400;
 }
 
 .cta-button {
-    background-color: #FF8C00;
+    background-color: #FFD700;
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -154,6 +158,16 @@ body {
 
 .contact-method a:hover {
     text-decoration: underline;
+}
+
+/* Fixing the Contact Email Box */
+.contact-method a {
+    word-wrap: break-word; /* Ensures the text fits within the box */
+    white-space: normal;
+    overflow-wrap: break-word; /* Ensures the email stays within bounds */
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 /* Footer */
