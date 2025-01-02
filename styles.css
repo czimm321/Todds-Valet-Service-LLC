@@ -161,7 +161,8 @@ body {
 }
 
 .contact-method p.email br {
-    display: block; /* Force the @ symbol and gmail.com to wrap to the second line */
+    content: "\A";  /* Force a line break */
+    white-space: pre;  /* Respect the line break */
 }
 
 /* Footer */
