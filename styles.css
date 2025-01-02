@@ -14,28 +14,24 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://images.unsplash.com/photo-1593572341607-9b4972185454') no-repeat center center/cover;
+    background: linear-gradient(45deg, #FF8C00, #e67e00); /* Vibrant orange gradient */
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    background-position: center;
-    background-color: #FF8C00; /* Adding a vibrant orange background if the image fails to load */
+    padding: 0 20px;
 }
 
 .hero-content h1 {
     font-size: 4rem;
     margin-bottom: 20px;
-    font-weight: bold;
-    letter-spacing: 1px;
 }
 
 .hero-content p {
     font-size: 1.5rem;
     margin-bottom: 40px;
-    font-weight: 400;
 }
 
 .cta-button {
@@ -139,6 +135,9 @@ body {
     border-radius: 8px;
     width: 250px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact-method h3 {
@@ -148,6 +147,7 @@ body {
 
 .contact-method p {
     font-size: 1.2rem;
+    margin-bottom: 0;
 }
 
 .contact-method a {
@@ -158,16 +158,6 @@ body {
 
 .contact-method a:hover {
     text-decoration: underline;
-}
-
-/* Fixing the Contact Email Box */
-.contact-method a {
-    word-wrap: break-word; /* Ensures the text fits within the box */
-    white-space: normal;
-    overflow-wrap: break-word; /* Ensures the email stays within bounds */
-    display: inline-block;
-    width: 100%;
-    text-align: center;
 }
 
 /* Footer */
