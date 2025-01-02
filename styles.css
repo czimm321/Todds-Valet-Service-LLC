@@ -157,7 +157,7 @@ body {
     word-wrap: break-word; /* Ensures wrapping */
     max-width: 200px; /* Limiting width to ensure it fits within the box */
     overflow-wrap: break-word;
-    padding-left: 20px; /* Increased left padding to move the email 4 more characters to the left */
+    padding-left: 30px; /* Increased left padding to move the email 4 more characters to the left */
 }
 
 /* Footer */
