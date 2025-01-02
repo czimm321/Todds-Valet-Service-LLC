@@ -14,7 +14,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    background: url('https://images.unsplash.com/photo-1593572341607-9b4972185454') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1606072023353-3acdb9d2a4f0') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: white;
     background-position: center;
-    background-color: #FFB84D; /* Updated to a softer gold/orange */
+    background-color: black; /* Fallback color for background */
 }
 
 .hero-content h1 {
@@ -39,7 +39,7 @@ body {
 }
 
 .cta-button {
-    background-color: #FFD700; /* Slightly softer gold */
+    background-color: #FFD700; /* Gold */
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -49,12 +49,12 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #e67e00;
+    background-color: #FFB84D; /* Lighter Gold */
 }
 
 /* About Section */
 .about-section {
-    background-color: #fff;
+    background-color: silver; /* Silver background */
     padding: 50px 20px;
     text-align: center;
 }
@@ -72,7 +72,7 @@ body {
 
 /* Services Section */
 .services-section {
-    background-color: #333333; /* Dark charcoal for a more professional look */
+    background-color: #333333; /* Black */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -81,7 +81,7 @@ body {
 .services-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #FFB84D; /* Updated gold/orange accent */
+    color: #FFD700; /* Gold */
 }
 
 .services-list {
@@ -92,7 +92,7 @@ body {
 }
 
 .service-item {
-    background-color: #444444; /* Slightly darker grey */
+    background-color: #444444; /* Darker black-grey */
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -110,7 +110,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: #FFB84D; /* Updated to the softer gold */
+    background-color: #FFD700; /* Gold */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -134,7 +134,7 @@ body {
 }
 
 .contact-method {
-    background-color: #333333; /* Dark charcoal background for the contact box */
+    background-color: #333333; /* Black */
     padding: 30px;
     border-radius: 8px;
     width: 250px;
@@ -151,7 +151,7 @@ body {
 }
 
 .contact-method a {
-    color: #FFD700; /* Soft gold for email link */
+    color: #FFD700; /* Gold */
     text-decoration: none;
     font-weight: bold;
 }
@@ -173,7 +173,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #333333; /* Charcoal footer */
+    background-color: #333333; /* Black footer */
     color: white;
     padding: 20px;
     text-align: center;
