@@ -141,6 +141,7 @@ body {
     border-radius: 8px;
     width: 250px;
     text-align: center;
+    word-wrap: break-word;  /* Ensures that long email addresses break appropriately */
 }
 
 .contact-method h3 {
@@ -152,6 +153,13 @@ body {
     font-size: 1.2rem;
 }
 
+.contact-method p.email {
+    font-size: 0.9rem; /* Smaller font size for the email */
+    word-wrap: break-word; /* Ensures wrapping */
+    max-width: 200px; /* Limiting width to ensure it fits within the box */
+    overflow-wrap: break-word;
+}
+
 .contact-method a {
     color: #D4AF37; /* Soft gold */
     text-decoration: none;
@@ -160,12 +168,6 @@ body {
 
 .contact-method a:hover {
     text-decoration: underline;
-}
-
-/* New Style for the email in the contact section */
-.contact-method p.email {
-    font-size: 1rem; /* Smaller font size for the email */
-    word-wrap: break-word;
 }
 
 /* Footer */
