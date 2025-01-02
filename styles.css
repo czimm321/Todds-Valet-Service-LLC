@@ -160,9 +160,11 @@ body {
     overflow-wrap: break-word;
 }
 
+/* Force break for email to split into two lines */
 .contact-method p.email br {
+    display: block;  /* Ensure the email breaks */
     content: "\A";  /* Force a line break */
-    white-space: pre;  /* Respect the line break */
+    white-space: pre;  /* Ensure the line break works */
 }
 
 /* Footer */
