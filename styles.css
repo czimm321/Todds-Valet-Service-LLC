@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #f0f0f0; /* Light background color */
+    color: #333; /* Dark text color */
     line-height: 1.6;
 }
 
 /* Hero Section */
 .hero-section {
-    background: url('https://images.unsplash.com/photo-1606072023353-3acdb9d2a4f0') no-repeat center center/cover;
+    background: url('https://images.unsplash.com/photo-1573708916195-5f61e3d4b25b?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHZhbGV0JTIwc2VydmljZXN8ZW58MHx8fHwxNjgwMTAwNjQw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover; /* Photo of valet opening car door */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: white;
     background-position: center;
-    background-color: black; /* Fallback color for background */
+    background-color: black; /* Fallback color in case the image doesn't load */
 }
 
 .hero-content h1 {
@@ -54,7 +54,7 @@ body {
 
 /* About Section */
 .about-section {
-    background-color: silver; /* Silver background */
+    background-color: #f0f0f0; /* Light background */
     padding: 50px 20px;
     text-align: center;
 }
@@ -72,7 +72,7 @@ body {
 
 /* Services Section */
 .services-section {
-    background-color: #333333; /* Black */
+    background-color: #333333; /* Dark section for contrast */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -92,7 +92,7 @@ body {
 }
 
 .service-item {
-    background-color: #444444; /* Darker black-grey */
+    background-color: #444444; /* Darker grey */
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -134,7 +134,7 @@ body {
 }
 
 .contact-method {
-    background-color: #333333; /* Black */
+    background-color: #333333; /* Dark background for contact methods */
     padding: 30px;
     border-radius: 8px;
     width: 250px;
@@ -151,7 +151,7 @@ body {
 }
 
 .contact-method a {
-    color: #FFD700; /* Gold */
+    color: #FFD700; /* Gold for contact links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -160,20 +160,9 @@ body {
     text-decoration: underline;
 }
 
-/* Fixing the Contact Email Box - smaller font for the email */
-.contact-method a {
-    word-wrap: break-word; /* Ensures the text fits within the box */
-    white-space: normal;
-    overflow-wrap: break-word; /* Ensures the email stays within bounds */
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    font-size: 1rem; /* Smaller font size for the email */
-}
-
 /* Footer */
 footer {
-    background-color: #333333; /* Black footer */
+    background-color: #333333; /* Dark footer */
     color: white;
     padding: 20px;
     text-align: center;
