@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: white;
     background-position: center;
-    background-color: #CCCCCC; /* Lighter grey fallback color */
+    background-color: #333333; /* Dark grey fallback color */
 }
 
 .hero-content h1 {
@@ -39,7 +39,7 @@ body {
 }
 
 .cta-button {
-    background-color: #D3D3D3; /* Lighter grey for the button */
+    background-color: #888888; /* Grey for the button */
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -49,7 +49,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #B0B0B0; /* Slightly darker grey on hover */
+    background-color: #666666; /* Slightly darker grey on hover */
 }
 
 /* About Section */
@@ -73,7 +73,7 @@ body {
 
 /* Services Section */
 .services-section {
-    background-color: #D3D3D3; /* Lighter grey background */
+    background-color: #333333; /* Dark grey background */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -82,7 +82,7 @@ body {
 .services-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #CCCCCC; /* Lighter grey for section headers */
+    color: #888888; /* Light grey for section headers */
 }
 
 .services-list {
@@ -93,7 +93,7 @@ body {
 }
 
 .service-item {
-    background-color: #B0B0B0; /* Light grey for service boxes */
+    background-color: #444444; /* Dark grey for service boxes */
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -111,7 +111,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: #D3D3D3; /* Lighter grey background for contact */
+    background-color: #888888; /* Grey background for contact */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -120,7 +120,7 @@ body {
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333333; /* Darker text for contrast */
+    color: #333333; /* Dark text for contrast */
 }
 
 .contact-section p {
@@ -136,7 +136,7 @@ body {
 }
 
 .contact-method {
-    background-color: #B0B0B0; /* Light grey background for contact methods */
+    background-color: #444444; /* Dark background for contact methods */
     padding: 30px;
     border-radius: 8px;
     width: 250px;
@@ -162,7 +162,7 @@ body {
 
 /* Footer */
 footer {
-    background-color: #B0B0B0; /* Light grey footer background */
+    background-color: #333333; /* Dark footer background */
     color: white;
     padding: 20px;
     text-align: center;
