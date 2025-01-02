@@ -154,7 +154,7 @@ body {
 }
 
 .contact-method p.email {
-    font-size: 0.9rem; /* Smaller font size for the email */
+    font-size: 1.1rem; /* Slightly larger for visibility */
     word-wrap: break-word; /* Ensures wrapping */
     max-width: 200px; /* Limiting width to ensure it fits within the box */
     overflow-wrap: break-word;
