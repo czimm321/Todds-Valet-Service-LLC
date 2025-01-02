@@ -160,6 +160,10 @@ body {
     overflow-wrap: break-word;
 }
 
+.contact-method p.email br {
+    display: block; /* Force the @ symbol and gmail.com to wrap to the second line */
+}
+
 .contact-method a {
     color: #D4AF37; /* Soft gold */
     text-decoration: none;
