@@ -22,7 +22,7 @@ body {
     text-align: center;
     color: white;
     background-position: center;
-    background-color: #333333; /* Fallback color in case image doesn't load */
+    background-color: #CCCCCC; /* Lighter grey fallback color */
 }
 
 .hero-content h1 {
@@ -39,7 +39,7 @@ body {
 }
 
 .cta-button {
-    background-color: #888888; /* Silver color for the button */
+    background-color: #D3D3D3; /* Lighter grey for the button */
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -49,7 +49,7 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #666666; /* Slightly darker silver on hover */
+    background-color: #B0B0B0; /* Slightly darker grey on hover */
 }
 
 /* About Section */
@@ -73,7 +73,7 @@ body {
 
 /* Services Section */
 .services-section {
-    background-color: #333333; /* Dark grey background */
+    background-color: #D3D3D3; /* Lighter grey background */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -82,7 +82,7 @@ body {
 .services-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #888888; /* Silver for section headers */
+    color: #CCCCCC; /* Lighter grey for section headers */
 }
 
 .services-list {
@@ -93,7 +93,7 @@ body {
 }
 
 .service-item {
-    background-color: #444444; /* Darker grey for service boxes */
+    background-color: #B0B0B0; /* Light grey for service boxes */
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -111,7 +111,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: #888888; /* Silver background for contact */
+    background-color: #D3D3D3; /* Lighter grey background for contact */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -136,7 +136,7 @@ body {
 }
 
 .contact-method {
-    background-color: #333333; /* Dark background for contact methods */
+    background-color: #B0B0B0; /* Light grey background for contact methods */
     padding: 30px;
     border-radius: 8px;
     width: 250px;
@@ -157,12 +157,12 @@ body {
     word-wrap: break-word; /* Ensures wrapping */
     max-width: 200px; /* Limiting width to ensure it fits within the box */
     overflow-wrap: break-word;
-    padding-left: 45px; /* Further increased left padding to move the email further to the left */
+    padding-left: 45px; /* Increased left padding to move the email further to the left */
 }
 
 /* Footer */
 footer {
-    background-color: #333333; /* Dark footer background */
+    background-color: #B0B0B0; /* Light grey footer background */
     color: white;
     padding: 20px;
     text-align: center;
