@@ -1,35 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Todd's Valet Parking LLC</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Todd's Valet Parking LLC - Professional Valet Parking and Chauffeur Services">
+    <title>Todd's Valet Parking LLC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to Todd's Valet Parking LLC</h1>
-    <p>Your Trusted Partner for Event Valet Parking and Chauffeur Services</p>
-    <nav>
-      <a href="about.html">About Us</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact Us</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>Our Services</h2>
-      <p>Event Valet Parking and Chauffeur Service, tailored to meet your needs. Professional and reliable staff ensuring a premium experience.</p>
-      <a href="services.html">Learn More</a>
+
+    <header>
+        <div class="logo">
+            <h1>Todd's Valet Parking</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Todd's Valet Parking</h2>
+            <p>Your premier valet parking and chauffeur service provider for events and luxury experiences.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
     </section>
-    <section>
-      <h2>Get in Touch</h2>
-      <p>Call or text us at <strong>502-689-3429</strong> or email us at <strong>toddvaletparking@gmail.com</strong>.</p>
-      <a href="contact.html">Contact Us</a>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Todd's Valet Parking</h2>
+        <p>At Todd's Valet Parking, we pride ourselves on providing reliable, professional valet services. Whether it’s an upscale event or everyday luxury transportation, we ensure your guests experience only the best service. Our chauffeur team is trained to offer you the utmost comfort and professionalism.</p>
     </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Todd's Valet Parking LLC. All rights reserved.</p>
-  </footer>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Event Valet Parking</h3>
+                <p>We provide top-notch valet parking services for all kinds of events—weddings, corporate functions, parties, and more. Let us take care of the parking while you focus on the event.</p>
+            </div>
+            <div class="service-item">
+                <h3>Chauffeur Service</h3>
+                <p>Our luxury chauffeur service offers a professional driver for your personal or business needs. We ensure punctuality, comfort, and privacy at all times.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you need valet parking for an event or are looking for a chauffeur service, we're here to help!</p>
+        <div class="contact-info">
+            <p>Call or text us at <strong><a href="tel:+15026893429">502-689-3429</a></strong></p>
+            <p>Email: <a href="mailto:toddsvaletparking@gmail.com">toddsvaletparking@gmail.com</a></p>
+        </div>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Todd's Valet Parking LLC</p>
+            <p>Follow us on social media:</p>
+            <div class="social-links">
+                <a href="https://facebook.com/toddsvaletparking" target="_blank">Facebook</a>
+                <a href="https://instagram.com/toddsvaletparking" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
