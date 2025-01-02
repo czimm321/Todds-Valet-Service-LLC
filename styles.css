@@ -23,24 +23,6 @@ body {
     color: white;
     background-position: center;
     background-color: #333333; /* Fallback color in case image doesn't load */
-    position: relative;
-}
-
-/* Add dark overlay to the image */
-.hero-section::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Dark overlay to make the text more readable */
-    z-index: 1;
-}
-
-.hero-content {
-    position: relative;
-    z-index: 2;
 }
 
 .hero-content h1 {
@@ -129,4 +111,65 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: #D4AF37;
+    background-color: #D4AF37; /* Soft gold */
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333; /* Dark text */
+}
+
+.contact-section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.contact-method {
+    background-color: #333333; /* Dark background for contact methods */
+    padding: 30px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+}
+
+.contact-method h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contact-method p {
+    font-size: 1.2rem;
+}
+
+.contact-method a {
+    color: #D4AF37; /* Soft gold */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Dark footer */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
