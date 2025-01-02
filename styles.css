@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8; /* Light grey background */
-    color: #333333; /* Dark grey text */
+    background-color: #f1f1f1; /* Light grey background */
+    color: #333333; /* Dark grey text for readability */
     line-height: 1.6;
 }
 
 /* Hero Section */
 .hero-section {
-    background: url('https://images.unsplash.com/photo-1573708916195-5f61e3d4b25b?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHZhbGV0JTIwc2VydmljZXN8ZW58MHx8fHwxNjgwMTAwNjQw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover; /* Photo of valet opening car door */
+    background: url('https://images.unsplash.com/photo-1573708916195-5f61e3d4b25b?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDh8fHZhbGV0JTIwc2VydmljZXN8ZW58MHx8fHwxNjgwMTAwNjQw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .cta-button {
-    background-color: #D4AF37; /* Soft gold */
+    background-color: #B8B8B8; /* Silver color for the button */
     color: white;
     padding: 15px 30px;
     font-size: 1.2rem;
@@ -49,12 +49,12 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #CDA434; /* Slightly darker gold */
+    background-color: #A0A0A0; /* Slightly darker silver on hover */
 }
 
 /* About Section */
 .about-section {
-    background-color: #FFFFFF; /* White background */
+    background-color: #FFFFFF; /* White background for clarity */
     padding: 50px 20px;
     text-align: center;
 }
@@ -62,7 +62,7 @@ body {
 .about-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333333; /* Dark text */
+    color: #333333; /* Dark text for headings */
 }
 
 .about-section p {
@@ -73,7 +73,7 @@ body {
 
 /* Services Section */
 .services-section {
-    background-color: #404040; /* Dark grey */
+    background-color: #2B2B2B; /* Dark grey background */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -82,7 +82,7 @@ body {
 .services-section h2 {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: #D4AF37; /* Soft gold */
+    color: #B8B8B8; /* Silver for section headers */
 }
 
 .services-list {
@@ -93,7 +93,7 @@ body {
 }
 
 .service-item {
-    background-color: #5A5A5A; /* Medium grey */
+    background-color: #404040; /* Darker grey for service boxes */
     padding: 20px;
     width: 250px;
     border-radius: 8px;
@@ -111,7 +111,7 @@ body {
 
 /* Contact Section */
 .contact-section {
-    background-color: #D4AF37; /* Soft gold */
+    background-color: #B8B8B8; /* Silver background for contact */
     color: white;
     padding: 50px 20px;
     text-align: center;
@@ -120,7 +120,7 @@ body {
 .contact-section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #333333; /* Dark text */
+    color: #333333; /* Darker text for contrast */
 }
 
 .contact-section p {
@@ -141,7 +141,6 @@ body {
     border-radius: 8px;
     width: 250px;
     text-align: center;
-    word-wrap: break-word;  /* Ensures that long email addresses break appropriately */
 }
 
 .contact-method h3 {
@@ -160,16 +159,9 @@ body {
     overflow-wrap: break-word;
 }
 
-/* Force break for email to split into two lines */
-.contact-method p.email br {
-    display: block;  /* Ensure the email breaks */
-    content: "\A";  /* Force a line break */
-    white-space: pre;  /* Ensure the line break works */
-}
-
 /* Footer */
 footer {
-    background-color: #333333; /* Dark footer */
+    background-color: #333333; /* Dark footer background */
     color: white;
     padding: 20px;
     text-align: center;
